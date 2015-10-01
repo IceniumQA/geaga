@@ -1,5 +1,6 @@
 {
   "CorePlugins": [
+    "com.amazon.aws@1.0.2",
     "org.apache.cordova.battery-status",
     "org.apache.cordova.camera",
     "org.apache.cordova.console",
@@ -19,5 +20,11 @@
     "org.apache.cordova.splashscreen",
     "org.apache.cordova.statusbar",
     "org.apache.cordova.vibration"
-  ]
+  ],
+  "CordovaPluginVariables": {
+    "com.amazon.aws": {
+      "ACCESS_KEY": "dsadas",
+      "SECRET_KEY": "dasdas"
+    }
+  }
 }
